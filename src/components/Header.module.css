@@ -1,0 +1,48 @@
+.header-container {
+  width: 327px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 30px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  margin-left: 10px;
+  /* text-align: center;
+  margin-top: 1.7rem;
+  margin-bottom: 2.3rem; */
+}
+.theme {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.theme-title {
+  display: inline;
+  color: hsla(217, 35%, 45%, 1);
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+  text-align: right;
+}
+
+.theme-icon {
+  padding-left: 12px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .header-container {
+    width: 778px;
+
+    /* margin-top: 30px; */
+    margin-left: 25px;
+    margin-right: 0px;
+  }
+}

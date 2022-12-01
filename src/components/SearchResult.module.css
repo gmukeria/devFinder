@@ -1,0 +1,165 @@
+.avatar {
+  height: 70px;
+  width: 70px;
+  left: 24px;
+  top: 32px;
+  border-radius: 50%;
+  /* display: none; */
+}
+.user-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.description-section {
+  padding: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 25px;
+
+  text-align: left;
+  color: #4b6a9b;
+}
+
+.statistic-sectoin {
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: #f6f8ff;
+  color: #2b3442;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1, 7rem;
+}
+
+.statistic-sectoin .stat-title {
+  font-size: 11px;
+  font-family: Space Mono;
+  color: #4b6a9b;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-family: Space Mono;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.contact-section {
+  padding: 2px;
+  font-size: 19px;
+  font-weight: 100;
+  line-height: 19px;
+  text-align: left;
+  display: inline;
+}
+
+.contact {
+  display: flex;
+  margin: 10px;
+}
+
+.contact-value {
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgb(87, 113, 156);
+  padding-left: 10px;
+}
+
+.contact .active {
+  color: rgb(173, 3, 240);
+  background-color: aquamarine;
+}
+
+/*  ---------------------------------   */
+
+.user-section {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.avatar-box {
+  /* margin: 5px; */
+}
+
+.fullname {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: left;
+}
+
+.name {
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsla(217, 21%, 21%, 1);
+}
+
+.nikname {
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsla(212, 100%, 50%, 1);
+}
+
+.joined-date {
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 400;
+  color: hsla(217, 20%, 51%, 1);
+}
+
+@media only screen and (min-width: 1000px) {
+  .avatar {
+    height: 117px;
+    width: 117px;
+    margin-left: 28px;
+    margin-top: 28px;
+  }
+
+  .description-section {
+    margin-left: 202px;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+
+  .contact {
+    display: flex;
+    margin: 10px;
+  }
+
+  .contact-section {
+    display: flex;
+    margin-left: 202px;
+  }
+
+  .statistic-sectoin {
+    height: 85px;
+    width: 480px;
+    margin-left: 202px;
+    text-align: center;
+  }
+
+  .fullname {
+    margin-top: 35px;
+  }
+}
